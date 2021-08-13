@@ -4,6 +4,6 @@
         <title>Get Date</title>
     </head>
     <body>
-        <p>The time is</p><%Time.now(%A, %B %d, %Y)%>
+        <h1>The date is <%= Date.today.strftime("%A, %B %d, %Y") %></h1>
     </body>
 </html>
